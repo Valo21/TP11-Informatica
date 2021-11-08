@@ -31,6 +31,5 @@ int main() {
     printf("\nEl producto de los numeros es: %i", producto);
     printf("\nEl promedio e los numeros es: %f", promedio);
     
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
     return 0;
 }

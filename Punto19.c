@@ -23,6 +23,5 @@ int main() {
     printf("El numero ingresado fue: %i\n", numero);
     printf("Su invertido es: %i", invertido);
 
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
     return 0;
 }

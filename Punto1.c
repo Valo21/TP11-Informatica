@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+int main( int arc, char *arg[]) {
     //Declaración de variables
     int numA, numB, producto;
     //Ingresar números
@@ -10,9 +10,7 @@ int main() {
     //Operación
     producto = numA * numB; 
     //Imprimir
-    printf("El producto entre los dos numeros es:");
-    printf("%i", producto);
-
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
+    printf("El producto entre los dos numeros es: %i", producto);
+    
     return 0;
 }

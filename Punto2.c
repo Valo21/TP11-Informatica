@@ -14,6 +14,5 @@ int main() {
     printf("La suma entre los dos numeros es: %f", suma);
     printf("\nEl producto entre los dos numeros es: %f", producto);
     
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
     return 0;
 }

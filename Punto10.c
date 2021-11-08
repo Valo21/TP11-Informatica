@@ -28,6 +28,6 @@ int main ()
         printf("El numero del ano es incorrecto");
     }
 
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
+
     return 0;
 }

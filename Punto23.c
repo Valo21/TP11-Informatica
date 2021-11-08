@@ -36,6 +36,5 @@ int main() {
     printf("Cantidad de numeros negativos: %i\n", cNegativos);
     printf("Cantidad de numeros iguales a 0: %i\n", cCeros);
 
-    getch(); //Función para que no se cierre la consola luego de imprimir, no forma parte del ejercicio
     return 0;
 }
